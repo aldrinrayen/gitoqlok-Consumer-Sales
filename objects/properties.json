@@ -1,0 +1,16 @@
+{
+  "qTitle": "Consumer Sales",
+  "qLastReloadTime": "2020-12-16T05:12:55.427Z",
+  "qMigrationHash": "64d115e925e2167bba72939c2d8a80e6beef4a56",
+  "qSavedInProductVersion": "12.763.3",
+  "qThumbnail": {
+    "qUrl": "/appcontent/8b3d2e4a-4876-4b02-a77b-94ab6f1b0858/consumer.png"
+  },
+  "createdDate": "2021-02-09T11:51:57.787Z",
+  "modifiedDate": "2021-02-26T15:44:24.574Z",
+  "published": false,
+  "publishTime": "1753-01-01T00:00:00.000Z",
+  "description": "See through the eyes of a consumer goods company.  Analyze sales data by sales rep, by region, by product, etc.",
+  "dynamicColor": "hsla(74,18%,43%,1)",
+  "stream": null
+}
