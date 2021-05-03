@@ -1,897 +1,324 @@
 [
   {
     "qInfo": {
-      "qId": "ADDpyq",
+      "qId": "0b1ba2ff-ee3a-4702-a8f1-c842db879bf5",
       "qType": "measure"
     },
     "qMeasure": {
-      "qLabel": "Sales vs Budget %",
-      "qDef": "Sum ([Budget Amount])/Sum ([Actual Amount])",
+      "qLabel": "Annual Salary Active Employees",
+      "qDef": "sum(if( [Pay End Date ENDDA]>(today()-1) and [Pay Start Date BEGDA]<=(today()-1),[Annual salary PA0008.ANSAL]))",
       "qGrouping": "N",
       "qExpressions": [],
-      "qActiveExpression": 0,
-      "qNumFormat": {
-        "qType": "U",
-        "qnDec": 10,
-        "qUseThou": 0
-      }
+      "qActiveExpression": 0
     },
     "qMetaDef": {
-      "title": "Sales vs Budget %",
+      "title": "Annual Salary Active Employees",
       "description": "",
       "tags": []
     }
   },
   {
     "qInfo": {
-      "qId": "BRTgFV",
+      "qId": "3f981ca7-d4d2-4b27-a6a9-2ffd8e6502c4",
       "qType": "measure"
     },
     "qMeasure": {
-      "qLabel": "LY Sales",
-      "qDef": "Sum({$<[Year]={\"2006\"}>}[Sales Amount])",
+      "qLabel": "Average Annual Salary",
+      "qDef": "sum(if( [Pay End Date ENDDA]>(today()-1) and [Pay Start Date BEGDA]<=today()-1,[Annual salary ANSAL]))\n/\ncount(distinct if( [Pay End Date ENDDA]>(today()-1) and [Pay Start Date BEGDA]<=today()-1,[Personnel No]))",
       "qGrouping": "N",
       "qExpressions": [],
-      "qActiveExpression": 0,
-      "qNumFormat": {
-        "qType": "U",
-        "qnDec": 10,
-        "qUseThou": 0
-      }
+      "qActiveExpression": 0
     },
     "qMetaDef": {
-      "title": "LY Sales",
+      "title": "Average Annual Salary",
       "description": "",
       "tags": []
     }
   },
   {
     "qInfo": {
-      "qId": "BZtaxw",
+      "qId": "53d6a040-b03c-433f-9829-dac69f7e7e0a",
       "qType": "measure"
     },
     "qMeasure": {
-      "qLabel": "Avg Sales (Prev Sel)",
-      "qDef": "Avg( {$2} [Sales Amount])",
+      "qLabel": "% Female",
+      "qDef": "count({$< [Employee Gender] = {'Female'} >} distinct if( [Pay End Date ENDDA]>(today()-1) and [Pay Start Date BEGDA]<=today()-1,[Personnel No]))\n/\ncount({<[Employee Gender]= >}TOTAL distinct if( [Pay End Date ENDDA]>(today()-1) and [Pay Start Date BEGDA]<=today()-1,[Personnel No]))\n",
       "qGrouping": "N",
       "qExpressions": [],
-      "qActiveExpression": 0,
-      "qNumFormat": {
-        "qType": "U",
-        "qnDec": 10,
-        "qUseThou": 0
-      }
+      "qActiveExpression": 0
     },
     "qMetaDef": {
-      "title": "Avg Sales (Prev Sel)",
+      "title": "% Female",
       "description": "",
       "tags": []
     }
   },
   {
     "qInfo": {
-      "qId": "CtApmJr",
+      "qId": "59ad98e2-1bad-4e95-8e0e-6ca5ae823d4d",
       "qType": "measure"
     },
     "qMeasure": {
-      "qLabel": "Western Revenue",
-      "qDef": "Sum({$<[Region Name]={\"Western\"}>}   [Sales Quantity]*[Sales Price])",
+      "qLabel": "Terminations CY",
+      "qDef": "count(distinct if( year([Hired Terminated Date]) = year(vToday) and [Terminated Date Flag] = '1',[Personnel No]))",
       "qGrouping": "N",
       "qExpressions": [],
-      "qActiveExpression": 0,
-      "qNumFormat": {
-        "qType": "U",
-        "qnDec": 10,
-        "qUseThou": 0
-      }
+      "qActiveExpression": 0
     },
     "qMetaDef": {
-      "title": "Western Revenue",
+      "title": "Terminations CY",
       "description": "",
       "tags": []
     }
   },
   {
     "qInfo": {
-      "qId": "EFNGf",
+      "qId": "656ab643-9581-4577-a8b6-25158cddf6dd",
       "qType": "measure"
     },
     "qMeasure": {
-      "qLabel": "GP%",
-      "qDef": "if(Sum([Sales Margin Amount])/Sum([Sales Amount]) < 0,0,Sum([Sales Margin Amount])/Sum([Sales Amount]))",
+      "qLabel": "Absence Days PY",
+      "qDef": "sum({$<[Absence Start Date BEGDA.autoCalendar.Year]= {'$(=year(max([Absence Start Date BEGDA]))-1)'}>}[Absence Days ABWTG])\n",
       "qGrouping": "N",
       "qExpressions": [],
-      "qActiveExpression": 0,
-      "qNumFormat": {
-        "qType": "U",
-        "qnDec": 10,
-        "qUseThou": 0
-      }
+      "qActiveExpression": 0
     },
     "qMetaDef": {
-      "title": "GP%",
+      "title": "Absence Days PY",
       "description": "",
       "tags": []
     }
   },
   {
     "qInfo": {
-      "qId": "EmXwes",
+      "qId": "690ac2be-e998-4e77-aed3-f76b1104ff66",
       "qType": "measure"
     },
     "qMeasure": {
-      "qLabel": "Central Revenue",
-      "qDef": "Sum({$<[Region Name]={\"Central\"}>} [Sales Quantity]*[Sales Price])",
+      "qLabel": "Active Employees Today",
+      "qDef": "count(distinct if( [Pay End Date ENDDA]>(today()-1) and [Pay Start Date BEGDA]<=(today()-1),[Personnel No]))",
       "qGrouping": "N",
       "qExpressions": [],
-      "qActiveExpression": 0,
-      "qNumFormat": {
-        "qType": "U",
-        "qnDec": 10,
-        "qUseThou": 0
-      }
+      "qActiveExpression": 0
     },
     "qMetaDef": {
-      "title": "Central Revenue",
+      "title": "Active Employees Today",
       "description": "",
       "tags": []
     }
   },
   {
     "qInfo": {
-      "qId": "FAeJZM",
+      "qId": "6c653812-aa1f-4af3-b8f4-f30014e988af",
       "qType": "measure"
     },
     "qMeasure": {
-      "qLabel": "Sales $",
-      "qDef": "Sum ([Sales Amount])",
+      "qLabel": "New Hires CY",
+      "qDef": "count(distinct if( year([Hired Terminated Date]) = year(vToday) and [Hired Date Flag] = '1',[Personnel No]))",
       "qGrouping": "N",
       "qExpressions": [],
-      "qActiveExpression": 0,
-      "qNumFormat": {
-        "qType": "U",
-        "qnDec": 10,
-        "qUseThou": 0
-      }
+      "qActiveExpression": 0
     },
     "qMetaDef": {
-      "title": "Sales $",
+      "title": "New Hires CY",
       "description": "",
       "tags": []
     }
   },
   {
     "qInfo": {
-      "qId": "FJHWXP",
+      "qId": "BPyVq",
       "qType": "measure"
     },
     "qMeasure": {
-      "qLabel": "Margin Amount",
-      "qDef": "Sum([Sales Margin Amount])",
+      "qLabel": "Absence Days CY",
+      "qDef": "sum({$<[Absence Start Date BEGDA.autoCalendar.Year]= {'$(=year(max([Absence Start Date BEGDA])))'}>}[Absence Days ABWTG])",
       "qGrouping": "N",
       "qExpressions": [],
-      "qActiveExpression": 0,
-      "qNumFormat": {
-        "qType": "U",
-        "qnDec": 10,
-        "qUseThou": 0
-      }
+      "qActiveExpression": 0
     },
     "qMetaDef": {
-      "title": "Margin Amount",
+      "title": "Absence Days CY",
       "description": "",
       "tags": []
     }
   },
   {
     "qInfo": {
-      "qId": "HhGPsEN",
+      "qId": "MYdjYsJ",
       "qType": "measure"
     },
     "qMeasure": {
-      "qLabel": "Margin % (Prev Selection)",
-      "qDef": "Sum({$2}[Sales Margin Amount])/Sum({$2}[Sales Amount])",
+      "qLabel": "Annual Salary",
+      "qDef": "sum([Annual salary ANSAL])",
       "qGrouping": "N",
       "qExpressions": [],
-      "qActiveExpression": 0,
-      "qNumFormat": {
-        "qType": "U",
-        "qnDec": 10,
-        "qUseThou": 0
-      }
+      "qActiveExpression": 0
     },
     "qMetaDef": {
-      "title": "Margin % (Prev Selection)",
+      "title": "Annual Salary",
       "description": "",
       "tags": []
     }
   },
   {
     "qInfo": {
-      "qId": "Hzya",
+      "qId": "USKpD",
       "qType": "measure"
     },
     "qMeasure": {
-      "qLabel": "Northeast Revenue",
-      "qDef": "Sum({$<[Region Name]={\"Northeast\"}>}   [Sales Quantity]*[Sales Price])",
+      "qLabel": "Absence Days",
+      "qDef": "sum([Absence Days ABWTG])",
       "qGrouping": "N",
       "qExpressions": [],
-      "qActiveExpression": 0,
-      "qNumFormat": {
-        "qType": "U",
-        "qnDec": 10,
-        "qUseThou": 0
-      }
+      "qActiveExpression": 0
     },
     "qMetaDef": {
-      "title": "Northeast Revenue",
+      "title": "Absence Days",
       "description": "",
       "tags": []
     }
   },
   {
     "qInfo": {
-      "qId": "JSdCZJv",
+      "qId": "ZtHQXC",
       "qType": "measure"
     },
     "qMeasure": {
-      "qLabel": "Total Shipments",
-      "qDef": "count(distinct Shipments)",
+      "qLabel": "What If Salary Cost",
+      "qDef": "sum([Annual salary PA0008.ANSAL])*(1+vSalary)",
       "qGrouping": "N",
       "qExpressions": [],
-      "qActiveExpression": 0,
-      "qNumFormat": {
-        "qType": "U",
-        "qnDec": 10,
-        "qUseThou": 0
-      }
+      "qActiveExpression": 0
     },
     "qMetaDef": {
-      "title": "Total Shipments",
+      "title": "What If Salary Cost",
       "description": "",
       "tags": []
     }
   },
   {
     "qInfo": {
-      "qId": "JesHLj",
+      "qId": "bjVcCmY",
       "qType": "measure"
     },
     "qMeasure": {
-      "qLabel": "Northeast Margin %",
-      "qDef": "Sum({$ <[Region Name]={\"Northeast\"}> }[Sales Margin Amount])/Sum({$ <[Region Name]={\"Northeast\"}> }[Sales Amount])",
+      "qLabel": "Salary Cost",
+      "qDef": "Sum ([Annual salary PA0008.ANSAL])",
       "qGrouping": "N",
       "qExpressions": [],
-      "qActiveExpression": 0,
-      "qNumFormat": {
-        "qType": "U",
-        "qnDec": 10,
-        "qUseThou": 0
-      }
+      "qActiveExpression": 0
     },
     "qMetaDef": {
-      "title": "Northeast Margin %",
+      "title": "Salary Cost",
       "description": "",
       "tags": []
     }
   },
   {
     "qInfo": {
-      "qId": "KBgAFet",
+      "qId": "erZeKcv",
       "qType": "measure"
     },
     "qMeasure": {
-      "qLabel": "Avg Sales",
-      "qDef": "Avg([Sales Amount])",
+      "qLabel": "Employee Count",
+      "qDef": "count(distinct [Personnel number PA0002.PERNR])",
       "qGrouping": "N",
       "qExpressions": [],
-      "qActiveExpression": 0,
-      "qNumFormat": {
-        "qType": "U",
-        "qnDec": 10,
-        "qUseThou": 0
-      }
+      "qActiveExpression": 0
     },
     "qMetaDef": {
-      "title": "Avg Sales",
+      "title": "Employee Count",
       "description": "",
       "tags": []
     }
   },
   {
     "qInfo": {
-      "qId": "MGKVm",
+      "qId": "gEmkJks",
       "qType": "measure"
     },
     "qMeasure": {
-      "qLabel": "Central Margin %",
-      "qDef": "Sum({$ <[Region Name]={\"Central\"}> }[Sales Margin Amount])/Sum({$ <[Region Name]={\"Central\"}> }[Sales Amount])",
+      "qLabel": "Active Employees Last YE",
+      "qDef": "count(distinct if( [Pay End Date ENDDA]>(yearend(vToday,-1)) and [Pay Start Date BEGDA]<=(yearend(vToday,-1)),[Personnel No]))",
       "qGrouping": "N",
       "qExpressions": [],
-      "qActiveExpression": 0,
-      "qNumFormat": {
-        "qType": "U",
-        "qnDec": 10,
-        "qUseThou": 0
-      }
+      "qActiveExpression": 0
     },
     "qMetaDef": {
-      "title": "Central Margin %",
+      "title": "Active Employees Last YE",
       "description": "",
       "tags": []
     }
   },
   {
     "qInfo": {
-      "qId": "MWpNfJM",
+      "qId": "jJBPyF",
       "qType": "measure"
     },
     "qMeasure": {
-      "qLabel": "TY vs LY Sales",
-      "qDef": "(sum([YTD Sales Amount])-sum([LY YTD Sales Amount])*0.2)/sum([LY YTD Sales Amount])",
+      "qLabel": "Absence Hours",
+      "qDef": "sum([Absence hours PA2001.STDAZ])",
       "qGrouping": "N",
       "qExpressions": [],
-      "qActiveExpression": 0,
-      "qNumFormat": {
-        "qType": "U",
-        "qnDec": 10,
-        "qUseThou": 0
-      }
+      "qActiveExpression": 0
     },
     "qMetaDef": {
-      "title": "TY vs LY Sales",
+      "title": "Absence Hours",
       "description": "",
       "tags": []
     }
   },
   {
     "qInfo": {
-      "qId": "NPnJRmj",
+      "qId": "jXfgmdW",
       "qType": "measure"
     },
     "qMeasure": {
-      "qLabel": "Sales Quantity",
-      "qDef": "Sum([Sales Quantity])",
+      "qLabel": "Weekly Working Hours",
+      "qDef": "sum([Weekly working hours PA0007.WOSTD])",
       "qGrouping": "N",
       "qExpressions": [],
-      "qActiveExpression": 0,
-      "qNumFormat": {
-        "qType": "U",
-        "qnDec": 10,
-        "qUseThou": 0
-      }
+      "qActiveExpression": 0
     },
     "qMetaDef": {
-      "title": "Sales Quantity",
+      "title": "Weekly Working Hours",
       "description": "",
       "tags": []
     }
   },
   {
     "qInfo": {
-      "qId": "NhXCJF",
+      "qId": "kFczATY",
       "qType": "measure"
     },
     "qMeasure": {
-      "qLabel": "Order Count",
-      "qDef": "Count(distinct [Order Number])",
+      "qLabel": "Absence Employee Count",
+      "qDef": "count([Absent Employee Number.PA2001.PERNR])",
       "qGrouping": "N",
       "qExpressions": [],
-      "qActiveExpression": 0,
-      "qNumFormat": {
-        "qType": "U",
-        "qnDec": 10,
-        "qUseThou": 0
-      }
+      "qActiveExpression": 0
     },
     "qMetaDef": {
-      "title": "Order Count",
+      "title": "Absence Employee Count",
       "description": "",
       "tags": []
     }
   },
   {
     "qInfo": {
-      "qId": "PkxPHA",
+      "qId": "yvWe",
       "qType": "measure"
     },
     "qMeasure": {
-      "qLabel": "New Customer Count",
-      "qDef": "Count({$<Cust_New={\"1\"}>} distinct Customer)",
+      "qLabel": "Avg Weekly Hours",
+      "qDef": "avg([Working Hours Weekly])",
       "qGrouping": "N",
       "qExpressions": [],
-      "qActiveExpression": 0,
-      "qNumFormat": {
-        "qType": "U",
-        "qnDec": 10,
-        "qUseThou": 0
-      }
+      "qActiveExpression": 0
     },
     "qMetaDef": {
-      "title": "New Customer Count",
-      "description": "",
-      "tags": []
-    }
-  },
-  {
-    "qInfo": {
-      "qId": "PmfVCp",
-      "qType": "measure"
-    },
-    "qMeasure": {
-      "qLabel": "Sales $ (Prev Sel)",
-      "qDef": "Sum ({$2}[Sales Amount])",
-      "qGrouping": "N",
-      "qExpressions": [],
-      "qActiveExpression": 0,
-      "qNumFormat": {
-        "qType": "U",
-        "qnDec": 10,
-        "qUseThou": 0
-      }
-    },
-    "qMetaDef": {
-      "title": "Sales $ (Prev Sel)",
-      "description": "",
-      "tags": []
-    }
-  },
-  {
-    "qInfo": {
-      "qId": "PnSYbJV",
-      "qType": "measure"
-    },
-    "qMeasure": {
-      "qLabel": "Customer Count",
-      "qDef": "Count(distinct Customer)",
-      "qGrouping": "N",
-      "qExpressions": [],
-      "qActiveExpression": 0,
-      "qNumFormat": {
-        "qType": "U",
-        "qnDec": 10,
-        "qUseThou": 0
-      }
-    },
-    "qMetaDef": {
-      "title": "Customer Count",
-      "description": "",
-      "tags": []
-    }
-  },
-  {
-    "qInfo": {
-      "qId": "UvxxZCL",
-      "qType": "measure"
-    },
-    "qMeasure": {
-      "qLabel": "Revenue (Prev Sel)",
-      "qDef": "Sum({$2} [Sales Quantity]*[Sales Price])",
-      "qGrouping": "N",
-      "qExpressions": [],
-      "qActiveExpression": 0,
-      "qNumFormat": {
-        "qType": "U",
-        "qnDec": 10,
-        "qUseThou": 0
-      }
-    },
-    "qMetaDef": {
-      "title": "Revenue (Prev Sel)",
-      "description": "",
-      "tags": []
-    }
-  },
-  {
-    "qInfo": {
-      "qId": "VSvJmYg",
-      "qType": "measure"
-    },
-    "qMeasure": {
-      "qLabel": "Southern Revenue",
-      "qDef": "Sum({$<[Region Name]={\"Southern\"}>}   [Sales Quantity]*[Sales Price])",
-      "qGrouping": "N",
-      "qExpressions": [],
-      "qActiveExpression": 0,
-      "qNumFormat": {
-        "qType": "U",
-        "qnDec": 10,
-        "qUseThou": 0
-      }
-    },
-    "qMetaDef": {
-      "title": "Southern Revenue",
-      "description": "",
-      "tags": []
-    }
-  },
-  {
-    "qInfo": {
-      "qId": "VcPTPJj",
-      "qType": "measure"
-    },
-    "qMeasure": {
-      "qLabel": "Sales Variance %",
-      "qDef": "(sum([YTD Sales Amount])-sum([LY YTD Sales Amount]))/sum([LY YTD Sales Amount])",
-      "qGrouping": "N",
-      "qExpressions": [],
-      "qActiveExpression": 0,
-      "qNumFormat": {
-        "qType": "U",
-        "qnDec": 10,
-        "qUseThou": 0
-      }
-    },
-    "qMetaDef": {
-      "title": "Sales Variance %",
-      "description": "",
-      "tags": []
-    }
-  },
-  {
-    "qInfo": {
-      "qId": "Wwmauk",
-      "qType": "measure"
-    },
-    "qMeasure": {
-      "qLabel": "Revenue",
-      "qDef": "Sum( [Sales Quantity]*[Sales Price])",
-      "qGrouping": "N",
-      "qExpressions": [],
-      "qActiveExpression": 0,
-      "qNumFormat": {
-        "qType": "U",
-        "qnDec": 10,
-        "qUseThou": 0
-      }
-    },
-    "qMetaDef": {
-      "title": "Revenue",
-      "description": "",
-      "tags": []
-    }
-  },
-  {
-    "qInfo": {
-      "qId": "XjRwdz",
-      "qType": "measure"
-    },
-    "qMeasure": {
-      "qLabel": "Late Shipments",
-      "qDef": "count(distinct If([Late Shipment] = 1 ,Shipments))",
-      "qGrouping": "N",
-      "qExpressions": [],
-      "qActiveExpression": 0,
-      "qNumFormat": {
-        "qType": "U",
-        "qnDec": 10,
-        "qUseThou": 0
-      }
-    },
-    "qMetaDef": {
-      "title": "Late Shipments",
-      "description": "",
-      "tags": []
-    }
-  },
-  {
-    "qInfo": {
-      "qId": "ZbrjxW",
-      "qType": "measure"
-    },
-    "qMeasure": {
-      "qLabel": "OnTime Shipments",
-      "qDef": "count(distinct If([Late Shipment] = 0 ,Shipments))",
-      "qGrouping": "N",
-      "qExpressions": [],
-      "qActiveExpression": 0,
-      "qNumFormat": {
-        "qType": "U",
-        "qnDec": 10,
-        "qUseThou": 0
-      }
-    },
-    "qMetaDef": {
-      "title": "OnTime Shipments",
-      "description": "",
-      "tags": []
-    }
-  },
-  {
-    "qInfo": {
-      "qId": "ZzKpbn",
-      "qType": "measure"
-    },
-    "qMeasure": {
-      "qLabel": "Southern Margin %",
-      "qDef": "Sum({$ <[Region Name]={\"Southern\"}> }[Sales Margin Amount])/Sum({$ <[Region Name]={\"Southern\"}> }[Sales Amount])",
-      "qGrouping": "N",
-      "qExpressions": [],
-      "qActiveExpression": 0,
-      "qNumFormat": {
-        "qType": "U",
-        "qnDec": 10,
-        "qUseThou": 0
-      }
-    },
-    "qMetaDef": {
-      "title": "Southern Margin %",
-      "description": "",
-      "tags": []
-    }
-  },
-  {
-    "qInfo": {
-      "qId": "faEjngn",
-      "qType": "measure"
-    },
-    "qMeasure": {
-      "qLabel": "TY Sales",
-      "qDef": "Sum({$<[Year]={\"2007\"}>}[Sales Amount])",
-      "qGrouping": "N",
-      "qExpressions": [],
-      "qActiveExpression": 0,
-      "qNumFormat": {
-        "qType": "U",
-        "qnDec": 10,
-        "qUseThou": 0
-      }
-    },
-    "qMetaDef": {
-      "title": "TY Sales",
-      "description": "",
-      "tags": []
-    }
-  },
-  {
-    "qInfo": {
-      "qId": "huMthCd",
-      "qType": "measure"
-    },
-    "qMeasure": {
-      "qLabel": "Western Margin %",
-      "qDef": "Sum({$ <[Region Name]={\"Western\"}> }[Sales Margin Amount])/Sum({$ <[Region Name]={\"Western\"}> }[Sales Amount])",
-      "qGrouping": "N",
-      "qExpressions": [],
-      "qActiveExpression": 0,
-      "qNumFormat": {
-        "qType": "U",
-        "qnDec": 10,
-        "qUseThou": 0
-      }
-    },
-    "qMetaDef": {
-      "title": "Western Margin %",
-      "description": "",
-      "tags": []
-    }
-  },
-  {
-    "qInfo": {
-      "qId": "kVbPf",
-      "qType": "measure"
-    },
-    "qMeasure": {
-      "qLabel": "Avg Lead Time",
-      "qDef": "Avg([Lead Time])",
-      "qGrouping": "N",
-      "qExpressions": [],
-      "qActiveExpression": 0,
-      "qNumFormat": {
-        "qType": "U",
-        "qnDec": 10,
-        "qUseThou": 0
-      }
-    },
-    "qMetaDef": {
-      "title": "Avg Lead Time",
-      "description": "",
-      "tags": []
-    }
-  },
-  {
-    "qInfo": {
-      "qId": "kkSADY",
-      "qType": "measure"
-    },
-    "qMeasure": {
-      "qLabel": "Sales Variance",
-      "qDef": "if((sum([YTD Sales Amount])-sum([LY YTD Sales Amount]))/sum([LY YTD Sales Amount])>-0.45, (sum([YTD Sales Amount])-sum([LY YTD Sales Amount]))/sum([LY YTD Sales Amount]), 0 )",
-      "qGrouping": "N",
-      "qExpressions": [],
-      "qActiveExpression": 0,
-      "qNumFormat": {
-        "qType": "U",
-        "qnDec": 10,
-        "qUseThou": 0
-      }
-    },
-    "qMetaDef": {
-      "title": "Sales Variance",
-      "description": "",
-      "tags": []
-    }
-  },
-  {
-    "qInfo": {
-      "qId": "mkjyPt",
-      "qType": "measure"
-    },
-    "qMeasure": {
-      "qLabel": "% OnTime Shipments",
-      "qDef": "count(distinct If([Late Shipment] = 0 ,Shipments))/Count(Distinct Shipments)",
-      "qGrouping": "N",
-      "qExpressions": [],
-      "qActiveExpression": 0,
-      "qNumFormat": {
-        "qType": "U",
-        "qnDec": 10,
-        "qUseThou": 0
-      }
-    },
-    "qMetaDef": {
-      "title": "% OnTime Shipments",
-      "description": "",
-      "tags": []
-    }
-  },
-  {
-    "qInfo": {
-      "qId": "ncXejP",
-      "qType": "measure"
-    },
-    "qMeasure": {
-      "qLabel": "Margin %",
-      "qDef": "Sum([Sales Margin Amount])/Sum([Sales Amount])",
-      "qGrouping": "N",
-      "qExpressions": [],
-      "qActiveExpression": 0,
-      "qNumFormat": {
-        "qType": "U",
-        "qnDec": 10,
-        "qUseThou": 0
-      }
-    },
-    "qMetaDef": {
-      "title": "Margin %",
-      "description": "",
-      "tags": []
-    }
-  },
-  {
-    "qInfo": {
-      "qId": "pNcHSx",
-      "qType": "measure"
-    },
-    "qMeasure": {
-      "qLabel": "Budget $",
-      "qDef": "Sum ([Budget Amount])",
-      "qGrouping": "N",
-      "qExpressions": [],
-      "qActiveExpression": 0,
-      "qNumFormat": {
-        "qType": "U",
-        "qnDec": 10,
-        "qUseThou": 0
-      }
-    },
-    "qMetaDef": {
-      "title": "Budget $",
-      "description": "",
-      "tags": []
-    }
-  },
-  {
-    "qInfo": {
-      "qId": "sRRvWf",
-      "qType": "measure"
-    },
-    "qMeasure": {
-      "qLabel": "Inventory",
-      "qDef": "Sum (Inventory)",
-      "qGrouping": "N",
-      "qExpressions": [],
-      "qActiveExpression": 0,
-      "qNumFormat": {
-        "qType": "U",
-        "qnDec": 10,
-        "qUseThou": 0
-      }
-    },
-    "qMetaDef": {
-      "title": "Inventory",
-      "description": "",
-      "tags": []
-    }
-  },
-  {
-    "qInfo": {
-      "qId": "uQbd",
-      "qType": "measure"
-    },
-    "qMeasure": {
-      "qLabel": "Actual Amount",
-      "qDef": "Sum ([Actual Amount])",
-      "qGrouping": "N",
-      "qExpressions": [],
-      "qActiveExpression": 0,
-      "qNumFormat": {
-        "qType": "U",
-        "qnDec": 10,
-        "qUseThou": 0
-      }
-    },
-    "qMetaDef": {
-      "title": "Actual Amount",
-      "description": "",
-      "tags": []
-    }
-  },
-  {
-    "qInfo": {
-      "qId": "xdrHWxe",
-      "qType": "measure"
-    },
-    "qMeasure": {
-      "qLabel": "Budget %",
-      "qDef": "Sum ([Actual Amount])/Sum([Budget Amount])",
-      "qGrouping": "N",
-      "qExpressions": [],
-      "qActiveExpression": 0,
-      "qNumFormat": {
-        "qType": "U",
-        "qnDec": 10,
-        "qUseThou": 0
-      }
-    },
-    "qMetaDef": {
-      "title": "Budget %",
-      "description": "",
-      "tags": []
-    }
-  },
-  {
-    "qInfo": {
-      "qId": "xsAAezG",
-      "qType": "measure"
-    },
-    "qMeasure": {
-      "qLabel": "Order Count Total",
-      "qDef": "Count({$<[Line Desc 1]={\"*\"}>}distinct [Order Number])",
-      "qGrouping": "N",
-      "qExpressions": [],
-      "qActiveExpression": 0,
-      "qNumFormat": {
-        "qType": "U",
-        "qnDec": 10,
-        "qUseThou": 0
-      }
-    },
-    "qMetaDef": {
-      "title": "Order Count Total",
-      "description": "",
-      "tags": []
-    }
-  },
-  {
-    "qInfo": {
-      "qId": "ynPrH",
-      "qType": "measure"
-    },
-    "qMeasure": {
-      "qLabel": "Lost Customer Count",
-      "qDef": "Count({$<Cust_Lost={\"1\"}>} distinct Customer)",
-      "qGrouping": "N",
-      "qExpressions": [],
-      "qActiveExpression": 0,
-      "qNumFormat": {
-        "qType": "U",
-        "qnDec": 10,
-        "qUseThou": 0
-      }
-    },
-    "qMetaDef": {
-      "title": "Lost Customer Count",
+      "title": "Avg Weekly Hours",
       "description": "",
       "tags": []
     }

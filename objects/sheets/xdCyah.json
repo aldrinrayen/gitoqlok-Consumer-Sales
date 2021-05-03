@@ -1,0 +1,99 @@
+{
+  "qProperty": {
+    "qInfo": {
+      "qId": "xdCyah",
+      "qType": "sheet"
+    },
+    "qMetaDef": {
+      "title": "Setup & Admin",
+      "description": ""
+    },
+    "rank": 5,
+    "thumbnail": {
+      "qStaticContentUrlDef": {}
+    },
+    "columns": 24,
+    "rows": 12,
+    "cells": [
+      {
+        "name": "BRdjz",
+        "type": "variable",
+        "col": 0,
+        "row": 10,
+        "colspan": 6,
+        "rowspan": 2
+      }
+    ]
+  },
+  "qChildren": [
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "BRdjz",
+          "qType": "variable"
+        },
+        "qMetaDef": {},
+        "showTitles": true,
+        "title": "% Female Employees",
+        "subtitle": "Target",
+        "footnote": "",
+        "variableName": "vFemaleTgt",
+        "style": "bootstrap",
+        "width": "",
+        "customwidth": "",
+        "render": "s",
+        "alternatives": [
+          {
+            "value": ".42",
+            "label": "42%",
+            "cId": "eKtyafN"
+          },
+          {
+            "value": ".44",
+            "label": "44%",
+            "cId": "nMgmbx"
+          },
+          {
+            "value": ".46",
+            "label": "46%",
+            "cId": "rCg"
+          },
+          {
+            "value": ".48",
+            "label": "48%",
+            "cId": "PLeuB"
+          },
+          {
+            "value": ".5",
+            "label": "50%",
+            "cId": "TsNDzj"
+          }
+        ],
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "rangelabel": false,
+        "visualization": "variable",
+        "variableValue": {
+          "qStringExpression": {
+            "qExpr": "=vFemaleTgt"
+          }
+        },
+        "version": "2.2.0",
+        "extensionMeta": {
+          "name": "Variable",
+          "description": "Variable extension",
+          "version": "2.2.0",
+          "type": "visualization",
+          "author": "Erik Wetterberg",
+          "icon": "extension",
+          "template": "variable",
+          "isLibraryItem": true,
+          "isThirdParty": true,
+          "templateIconClassName": "icon-extension"
+        }
+      },
+      "qChildren": []
+    }
+  ]
+}

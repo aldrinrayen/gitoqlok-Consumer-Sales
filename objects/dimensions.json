@@ -1,265 +1,369 @@
 [
   {
     "qInfo": {
-      "qId": "007e75d2-452a-42b5-b924-b66576b69a76",
+      "qId": "00895723-dc93-44b9-b463-7d2dabd47971",
       "qType": "dimension"
     },
     "qDim": {
       "qGrouping": "N",
       "qFieldDefs": [
-        "Product Line Desc"
+        "Absence Full Day ALLDF"
       ],
       "qFieldLabels": [
-        "Product Line"
+        "Absence Full Day"
       ],
-      "title": "Product Line"
+      "title": "Absence Full Day"
     },
     "qMetaDef": {
-      "title": "Product Line",
+      "title": "Absence Full Day",
       "description": "",
       "tags": []
     }
   },
   {
     "qInfo": {
-      "qId": "05778c9f-aef0-4078-a577-4cfffd8ebfbe",
+      "qId": "12ecb37e-7d68-4613-8b21-2aeaf0d1c127",
       "qType": "dimension"
     },
     "qDim": {
       "qGrouping": "N",
       "qFieldDefs": [
-        "Customer"
+        "Job Description.PA0001.STELL"
       ],
       "qFieldLabels": [
-        "Customer"
+        "Job Description"
       ],
-      "title": "Customer"
+      "title": "Job Description"
     },
     "qMetaDef": {
-      "title": "Customer",
+      "title": "Job Description",
       "description": "",
       "tags": []
     }
   },
   {
     "qInfo": {
-      "qId": "1921a822-d119-42b3-85ab-650b60304464",
+      "qId": "1e2cd6ca-34a2-4cd5-a434-abf32a9a2dd4",
       "qType": "dimension"
     },
     "qDim": {
       "qGrouping": "N",
       "qFieldDefs": [
-        "Product Sub Group Desc"
+        "Absence End Date ENDDA"
       ],
       "qFieldLabels": [
-        "Product Sub Group"
+        "Absence End Date"
       ],
-      "title": "Product Sub Group"
+      "title": "Absence End Date"
     },
     "qMetaDef": {
-      "title": "Product Sub Group",
+      "title": "Absence End Date",
       "description": "",
       "tags": []
     }
   },
   {
     "qInfo": {
-      "qId": "194ec95b-6cce-4d90-ba53-c099c762f14b",
+      "qId": "26622e4c-7d98-4a66-8814-04615501d975",
       "qType": "dimension"
     },
     "qDim": {
       "qGrouping": "N",
       "qFieldDefs": [
-        "BasketItem"
+        "PA2001.Absence Month"
       ],
       "qFieldLabels": [
-        "Basket Item"
+        "Absence Month"
       ],
-      "title": "Basket Item"
+      "title": "Absence Month"
     },
     "qMetaDef": {
-      "title": "Basket Item",
+      "title": "Absence Month",
       "description": "",
       "tags": []
     }
   },
   {
     "qInfo": {
-      "qId": "20c2b97b-1309-4210-b13c-af30b4bee211",
+      "qId": "38d52945-2d8e-4d77-9052-ba5549b68fb4",
       "qType": "dimension"
     },
     "qDim": {
-      "qGrouping": "N",
+      "qGrouping": "H",
       "qFieldDefs": [
-        "Basket Product Line Desc"
+        "Pay Scale Type",
+        "Pay Scale Group TRFGR"
       ],
-      "qFieldLabels": [
-        "Basket Product Line Desc"
-      ],
-      "title": "Basket Product Line Desc"
+      "qFieldLabels": [],
+      "title": "Pay Scale Type Group"
     },
     "qMetaDef": {
-      "title": "Basket Product Line Desc",
+      "title": "Pay Scale Type Group",
       "description": "",
       "tags": []
     }
   },
   {
     "qInfo": {
-      "qId": "2286d6be-43b2-42c2-9630-8dc4ed83fde5",
+      "qId": "3d975211-d4c7-4d62-b257-cb4003e48d72",
       "qType": "dimension"
     },
     "qDim": {
       "qGrouping": "N",
       "qFieldDefs": [
-        "Basket Produce Line"
+        "Absence Start Date BEGDA"
       ],
       "qFieldLabels": [
-        "Basket Produce Line"
+        "Absence Start Date"
       ],
-      "title": "Basket Produce Line"
+      "title": "Absence Start Date"
     },
     "qMetaDef": {
-      "title": "Basket Produce Line",
+      "title": "Absence Start Date",
       "description": "",
       "tags": []
     }
   },
   {
     "qInfo": {
-      "qId": "2bcc1ab4-784d-464e-b123-62f240c3b39f",
+      "qId": "3f083015-422d-46c5-8ecd-c198967df606",
       "qType": "dimension"
     },
     "qDim": {
       "qGrouping": "N",
       "qFieldDefs": [
-        "Sales Rep Name"
+        "Country Key T500P.LAND1"
       ],
       "qFieldLabels": [
-        "Sales Rep"
+        "Country Key"
       ],
-      "title": "Sales Rep"
+      "title": "Country Key"
     },
     "qMetaDef": {
-      "title": "Sales Rep",
+      "title": "Country Key",
       "description": "",
       "tags": []
     }
   },
   {
     "qInfo": {
-      "qId": "34309143-5faf-461d-814d-cb219c38da07",
+      "qId": "5d296402-e8bf-484b-b50a-268fe8104800",
       "qType": "dimension"
     },
     "qDim": {
       "qGrouping": "N",
       "qFieldDefs": [
-        "Line Desc 1"
+        "Hired/TermMth.PA0000.BEGDA"
       ],
       "qFieldLabels": [
-        "Product"
+        "Hired/Term Mth"
       ],
-      "title": "Product"
+      "title": "Hired/Term Mth"
     },
     "qMetaDef": {
-      "title": "Product",
+      "title": "Hired/Term Mth",
       "description": "",
       "tags": []
     }
   },
   {
     "qInfo": {
-      "qId": "3ce675bf-3718-42ac-bfe2-86dfadb0c96d",
+      "qId": "5dec5ae9-5420-40d5-8edd-ce04be8d39e8",
       "qType": "dimension"
     },
     "qDim": {
       "qGrouping": "N",
       "qFieldDefs": [
-        "YearMonth"
+        "Hired/TermYr.PA0000.BEGDA"
       ],
       "qFieldLabels": [
-        "YearMonth"
+        "Hired/Term Year"
       ],
-      "title": "YearMonth"
+      "title": "Hired/Term Year"
     },
     "qMetaDef": {
-      "title": "YearMonth",
+      "title": "Hired/Term Year",
       "description": "",
       "tags": []
     }
   },
   {
     "qInfo": {
-      "qId": "5008a373-d201-44ce-82cd-26c1cb95c298",
+      "qId": "6cc1c3c2-0bd0-4616-905f-e1d03349126d",
       "qType": "dimension"
     },
     "qDim": {
       "qGrouping": "N",
       "qFieldDefs": [
-        "Basket Item Desc"
+        "Pay Scale Level TRFST"
       ],
       "qFieldLabels": [
-        "Basket Product Desc"
+        "Pay Scale Level"
       ],
-      "title": "Basket Product Desc"
+      "title": "Pay Scale Level"
     },
     "qMetaDef": {
-      "title": "Basket Product Desc",
+      "title": "Pay Scale Level",
       "description": "",
       "tags": []
     }
   },
   {
     "qInfo": {
-      "qId": "50a5fd45-6023-487a-a6d1-f71681f0dafe",
+      "qId": "6d1e8c6f-3039-4322-abc1-3af3dae5ed43",
       "qType": "dimension"
     },
     "qDim": {
       "qGrouping": "N",
       "qFieldDefs": [
-        "Month"
+        "Last name PA0002.NACHN"
       ],
       "qFieldLabels": [
-        "Month"
+        "Last name"
       ],
-      "title": "Month"
+      "title": "Last name"
     },
     "qMetaDef": {
-      "title": "Month",
+      "title": "Last name",
       "description": "",
       "tags": []
     }
   },
   {
     "qInfo": {
-      "qId": "5b68675d-30a0-4e5c-9c11-efe9dba2fd1a",
+      "qId": "74e6f873-e3fd-4259-b7a6-16487874a9b5",
       "qType": "dimension"
     },
     "qDim": {
       "qGrouping": "N",
       "qFieldDefs": [
-        "Regional Sales Mgr Name"
+        "Pay Scale Area"
       ],
       "qFieldLabels": [
-        "Regional Sales Mgr"
+        "Pay Scale Area"
       ],
-      "title": "Regional Sales Mgr"
+      "title": "Pay Scale Area"
     },
     "qMetaDef": {
-      "title": "Regional Sales Mgr",
+      "title": "Pay Scale Area",
       "description": "",
       "tags": []
     }
   },
   {
     "qInfo": {
-      "qId": "5b7dbcd0-1948-42db-b5d5-3d4e6fb36bbf",
+      "qId": "7745c435-1112-4676-b640-7fc520fac52a",
       "qType": "dimension"
     },
     "qDim": {
       "qGrouping": "N",
       "qFieldDefs": [
-        "City"
+        "=floor((if([Pay End Date ENDDA]>vToday,vToday,[Pay End Date ENDDA])-[Pay Start Date BEGDA])/365)"
+      ],
+      "qFieldLabels": [
+        "Length of Service Years"
+      ],
+      "title": "Length of Service Years"
+    },
+    "qMetaDef": {
+      "title": "Length of Service Years",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "7e3a520a-4668-4ee7-9c32-e6712a1351d1",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Supervisor area PA0001.MSTBR"
+      ],
+      "qFieldLabels": [
+        "Supervisor area"
+      ],
+      "title": "Supervisor area"
+    },
+    "qMetaDef": {
+      "title": "Supervisor area",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "8566586c-50a4-4038-8268-9ae7f5a0c700",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Date of birth PA0002.GBDAT"
+      ],
+      "qFieldLabels": [
+        "Date of birth"
+      ],
+      "title": "Date of birth"
+    },
+    "qMetaDef": {
+      "title": "Date of birth",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "8593823d-3232-47aa-b11a-30639bae2734",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Postal Code T500P.PSTLZ"
+      ],
+      "qFieldLabels": [
+        "Postal Code"
+      ],
+      "title": "Postal Code"
+    },
+    "qMetaDef": {
+      "title": "Postal Code",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "8a174bd3-b4db-4693-a5d1-d800e1b41d03",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "First name PA0002.VORNA"
+      ],
+      "qFieldLabels": [
+        "First name"
+      ],
+      "title": "First name"
+    },
+    "qMetaDef": {
+      "title": "First name",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "95bafd08-4587-4970-a25c-e3119285a7a9",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "City T500P.ORT01"
       ],
       "qFieldLabels": [
         "City"
@@ -274,276 +378,543 @@
   },
   {
     "qInfo": {
-      "qId": "700c622d-693d-46dd-b538-426edd0175c2",
+      "qId": "9d1cd5ab-1615-4544-b036-adee154453f2",
       "qType": "dimension"
     },
     "qDim": {
       "qGrouping": "N",
       "qFieldDefs": [
-        "Year"
+        "Absence Subtype SUBTY"
       ],
       "qFieldLabels": [
-        "Year"
+        "Absence Subtype"
       ],
-      "title": "Year"
+      "title": "Absence Subtype"
     },
     "qMetaDef": {
-      "title": "Year",
+      "title": "Absence Subtype",
       "description": "",
       "tags": []
     }
   },
   {
     "qInfo": {
-      "qId": "8566e158-7f06-4324-9e73-d7688b574821",
+      "qId": "9fea40be-578e-40fe-bdf8-ef018ac23fee",
       "qType": "dimension"
     },
     "qDim": {
       "qGrouping": "N",
       "qFieldDefs": [
-        "Product Type Desc"
+        "Absence Due to Accident UNFAL"
       ],
       "qFieldLabels": [
-        "Product Type Desc"
+        "Absence Due to Accident"
       ],
-      "title": "Product Type Desc"
+      "title": "Absence Due to Accident"
     },
     "qMetaDef": {
-      "title": "Product Type Desc",
+      "title": "Absence Due to Accident",
       "description": "",
       "tags": []
     }
   },
   {
     "qInfo": {
-      "qId": "96247c2b-e08d-48ae-813d-d30349928998",
+      "qId": "BwFjPN",
       "qType": "dimension"
     },
     "qDim": {
       "qGrouping": "N",
       "qFieldDefs": [
-        "Product Group Desc"
+        "Org Assign Org Unit"
       ],
       "qFieldLabels": [
-        "Product Group"
+        "Org Unit"
       ],
-      "title": "Product Group"
+      "title": "Org Unit"
     },
     "qMetaDef": {
-      "title": "Product Group",
+      "title": "Org Unit",
       "description": "",
       "tags": []
     }
   },
   {
     "qInfo": {
-      "qId": "EyEkgTn",
+      "qId": "ECHrK",
       "qType": "dimension"
     },
     "qDim": {
       "qGrouping": "N",
       "qFieldDefs": [
-        "textBudgetPeriod"
+        "Personnel number PA0002.PERNR"
       ],
       "qFieldLabels": [
-        "Budget Period"
+        "Personnel number"
       ],
-      "title": "Budget Period"
+      "title": "Personnel number"
     },
     "qMetaDef": {
-      "title": "Budget Period",
+      "title": "Personnel number",
       "description": "",
       "tags": []
     }
   },
   {
     "qInfo": {
-      "qId": "JCEh",
+      "qId": "FGuVmr",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Employee Age Group 10"
+      ],
+      "qFieldLabels": [
+        "Age Group 10"
+      ],
+      "title": "Age Group 10"
+    },
+    "qMetaDef": {
+      "title": "Age Group 10",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "FJrUHj",
       "qType": "dimension"
     },
     "qDim": {
       "qGrouping": "H",
       "qFieldDefs": [
-        "Country",
-        "State",
-        "Region Name"
+        "Organizational unit PA0001.ORGEH",
+        "Absent Employee Number.PA2001.PERNR"
       ],
       "qFieldLabels": [],
-      "title": "asdf",
-      "coloring": {
-        "changeHash": "0.5761312846468021"
-      }
+      "title": "Absence Org Unit Employee"
     },
     "qMetaDef": {
-      "title": "asdf",
+      "title": "Absence Org Unit Employee",
       "description": "",
       "tags": []
     }
   },
   {
     "qInfo": {
-      "qId": "a1c5c05b-97a5-4f50-889f-58440eddf40f",
+      "qId": "JCYNRKT",
       "qType": "dimension"
     },
     "qDim": {
-      "qGrouping": "N",
+      "qGrouping": "H",
       "qFieldDefs": [
-        "Invoice Date"
+        "Absence End Date ENDDA.autoCalendar.Year",
+        "Absence End Date ENDDA.autoCalendar.Month",
+        "Absence End Date ENDDA.autoCalendar.Week",
+        "Absence End Date ENDDA.autoCalendar.Date"
       ],
-      "qFieldLabels": [
-        "Invoice Date"
-      ],
-      "title": "Invoice Date"
+      "qFieldLabels": [],
+      "title": "Absence Year Month Week"
     },
     "qMetaDef": {
-      "title": "Invoice Date",
+      "title": "Absence Year Month Week",
       "description": "",
       "tags": []
     }
   },
   {
     "qInfo": {
-      "qId": "af474ee7-aa28-4870-9ffb-790f201c1cc3",
+      "qId": "JsJqLJP",
       "qType": "dimension"
     },
     "qDim": {
       "qGrouping": "N",
       "qFieldDefs": [
-        "Basket Product Group Desc"
+        "Absent Employee Number.PA2001.PERNR"
       ],
       "qFieldLabels": [
-        "Basket Product Group Desc"
+        "Absence Employee Number"
       ],
-      "title": "Basket Product Group Desc"
+      "title": "Absence Employee Number"
     },
     "qMetaDef": {
-      "title": "Basket Product Group Desc",
+      "title": "Absence Employee Number",
       "description": "",
       "tags": []
     }
   },
   {
     "qInfo": {
-      "qId": "b3773eb8-aeb6-4a37-b097-bb0478feff68",
+      "qId": "PfynsQH",
       "qType": "dimension"
     },
     "qDim": {
-      "qGrouping": "N",
+      "qGrouping": "H",
       "qFieldDefs": [
-        "Basket Product Sub Group Desc"
+        "PA2001.Absence Month",
+        "PA2001.Absence Week"
       ],
-      "qFieldLabels": [
-        "Basket Product Sub Group Desc"
-      ],
-      "title": "Basket Product Sub Group Desc"
+      "qFieldLabels": [],
+      "title": "Absence Month Week"
     },
     "qMetaDef": {
-      "title": "Basket Product Sub Group Desc",
+      "title": "Absence Month Week",
       "description": "",
       "tags": []
     }
   },
   {
     "qInfo": {
-      "qId": "ba3afca6-f5a0-4cc9-baae-15ecacb6275b",
+      "qId": "RdAF",
       "qType": "dimension"
     },
     "qDim": {
-      "qGrouping": "N",
+      "qGrouping": "H",
       "qFieldDefs": [
-        "state_name"
+        "Employee Age Group 5",
+        "Employee Age"
       ],
-      "qFieldLabels": [
-        "State Name"
-      ],
-      "title": "State Name"
+      "qFieldLabels": [],
+      "title": "Age Drill"
     },
     "qMetaDef": {
-      "title": "State Name",
+      "title": "Age Drill",
       "description": "",
       "tags": []
     }
   },
   {
     "qInfo": {
-      "qId": "cf1d8ef8-4020-4f81-b487-514c354875b4",
+      "qId": "SRwnD",
       "qType": "dimension"
     },
     "qDim": {
-      "qGrouping": "N",
+      "qGrouping": "H",
       "qFieldDefs": [
-        "Region Name"
+        "Org Assign Company Name",
+        "Org Assign Org Unit"
       ],
-      "qFieldLabels": [
-        "Region Name"
-      ],
-      "title": "Region Name"
+      "qFieldLabels": [],
+      "title": "Company Drill"
     },
     "qMetaDef": {
-      "title": "Region Name",
+      "title": "Company Drill",
       "description": "",
       "tags": []
     }
   },
   {
     "qInfo": {
-      "qId": "e062299e-2690-4b48-8267-a3d25f214abb",
+      "qId": "VQhC",
       "qType": "dimension"
     },
     "qDim": {
       "qGrouping": "N",
       "qFieldDefs": [
-        "Metric"
+        "=$(vGenderSplit)"
       ],
       "qFieldLabels": [
-        "Color by Metric"
+        "Gender Split"
       ],
-      "title": "Color by Metric"
+      "title": "Gender Split"
     },
     "qMetaDef": {
-      "title": "Color by Metric",
+      "title": "Gender Split",
       "description": "",
       "tags": []
     }
   },
   {
     "qInfo": {
-      "qId": "ebb29b50-eb4f-4b8e-9bd9-8a6e0cdc5bcc",
+      "qId": "VmZymJ",
       "qType": "dimension"
     },
     "qDim": {
       "qGrouping": "N",
       "qFieldDefs": [
-        "State"
+        "Pay Scale Group TRFGR"
       ],
       "qFieldLabels": [
-        "State"
+        "Pay Scale Group"
       ],
-      "title": "State"
+      "title": "Pay Scale Group"
     },
     "qMetaDef": {
-      "title": "State",
+      "title": "Pay Scale Group",
       "description": "",
       "tags": []
     }
   },
   {
     "qInfo": {
-      "qId": "wAHvmXU",
+      "qId": "XUqpNhn",
       "qType": "dimension"
     },
     "qDim": {
       "qGrouping": "N",
       "qFieldDefs": [
-        "Area"
+        "Absence Type Text ATEXT"
       ],
       "qFieldLabels": [
-        "Area"
+        "Absence Type"
       ],
-      "title": "Area"
+      "title": "Absence Type"
     },
     "qMetaDef": {
-      "title": "Area",
+      "title": "Absence Type",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "YvpPgmS",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Employee Gender"
+      ],
+      "qFieldLabels": [
+        "Employee Gender"
+      ],
+      "title": "Employee Gender"
+    },
+    "qMetaDef": {
+      "title": "Employee Gender",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "a0210f5d-c877-4619-b076-f48189ab6968",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Business Area PA0001.GSBER"
+      ],
+      "qFieldLabels": [
+        "Business Area"
+      ],
+      "title": "Business Area"
+    },
+    "qMetaDef": {
+      "title": "Business Area",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "c51a53c4-b6c2-4a05-8b68-b59b1f982c31",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Cost Center PA0001.KOSTL"
+      ],
+      "qFieldLabels": [
+        "Cost Center"
+      ],
+      "title": "Cost Center"
+    },
+    "qMetaDef": {
+      "title": "Cost Center",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "cvUFHbq",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Employee Age Group 5"
+      ],
+      "qFieldLabels": [
+        "Age Group 5"
+      ],
+      "title": "Age Group 5"
+    },
+    "qMetaDef": {
+      "title": "Age Group 5",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "db6868b8-f82f-471e-b6e3-acd3dc909083",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Hire Date Type.PA0000.MASSN"
+      ],
+      "qFieldLabels": [
+        "Hire Date Type"
+      ],
+      "title": "Hire Date Type"
+    },
+    "qMetaDef": {
+      "title": "Hire Date Type",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "dedac2cc-3141-4aa1-96f9-03c424fc89ae",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "House number/street T500P.STRAS"
+      ],
+      "qFieldLabels": [
+        "House number/street"
+      ],
+      "title": "House number/street"
+    },
+    "qMetaDef": {
+      "title": "House number/street",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "e3f8bbe2-3261-42c4-bc79-90e02771ac9d",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Full or Part Time.PA0007.EMPCT"
+      ],
+      "qFieldLabels": [
+        "Full or Part Time"
+      ],
+      "title": "Full or Part Time"
+    },
+    "qMetaDef": {
+      "title": "Full or Part Time",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "edc330bc-b9b6-451d-b110-78d96a1bedfc",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Age.PA0002.GBDAT"
+      ],
+      "qFieldLabels": [
+        "Age"
+      ],
+      "title": "Age"
+    },
+    "qMetaDef": {
+      "title": "Age",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "qWBvwv",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Personnel area T500P.PERSA"
+      ],
+      "qFieldLabels": [
+        "Absence Personnel area"
+      ],
+      "title": "Absence Personnel area"
+    },
+    "qMetaDef": {
+      "title": "Absence Personnel area",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "sWYsJ",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "=[Employee Full Name]&' - '&[Personnel No]"
+      ],
+      "qFieldLabels": [
+        "Employee Name Num"
+      ],
+      "title": "Employee Name Num"
+    },
+    "qMetaDef": {
+      "title": "Employee Name Num",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "uncjm",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Absence Illness Desc UMSKD"
+      ],
+      "qFieldLabels": [
+        "Absence Illness Desc"
+      ],
+      "title": "Absence Illness Desc"
+    },
+    "qMetaDef": {
+      "title": "Absence Illness Desc",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "vKEqsp",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "=[Company Code PA0001.BUKRS]"
+      ],
+      "qFieldLabels": [
+        "Company Code"
+      ],
+      "title": "Company Code"
+    },
+    "qMetaDef": {
+      "title": "Company Code",
       "description": "",
       "tags": []
     }

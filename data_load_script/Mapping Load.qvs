@@ -1,0 +1,76 @@
+///$tab Mapping Load
+	DDIC_temp:
+	LOAD
+		 FIELDNAME,
+		 TABNAME, 
+	     ROLLNAME 
+	FROM $(vScriptBuilder)DD03L.qvd(qvd);
+	left join (DDIC_temp)
+	LOAD ROLLNAME, 
+	     SCRTEXT_$(vLength)
+	FROM $(vScriptBuilder)DD04T_$(vLanguage).qvd(qvd);
+	
+	DDIC_F:
+	mapping
+	load
+		TABNAME &'.'& FIELDNAME,
+		SCRTEXT_$(vLength) &' '& TABNAME &'.'& FIELDNAME
+	resident DDIC_temp;
+	drop table DDIC_temp;
+	
+	DDIC_T:
+	mapping
+	LOAD
+		TABNAME, 
+	    TABNAME &'_'& DDTEXT
+	FROM $(vScriptBuilder)DD02T_$(vLanguage).qvd(qvd);
+	
+	//Rename Table and field names
+
+rename fields using DDIC_F ;
+rename tables using DDIC_T ;
+
+
+//Rename Manually created fields to format : Description.Table.Fieldname
+
+//rename field [PA0001.Job Description] to [Job Description.PA0001.STELL];
+//rename field [PA0000.Hire Date Type] to [Hire Date Type.PA0000.MASSN];
+//rename field [PA0000.Hired/TermYr] to [Hired/TermYr.PA0000.BEGDA];
+//rename field [PA0000.Hired/TermMth] to [Hired/TermMth.PA0000.BEGDA];
+//rename field [PA0000.Hired/TermWk] to [Hired/TermWk.PA0000.BEGDA];
+//rename field [PA0002.Personnel Start Date] to [Personnel Start Date.PA0002.BEGDA];
+//rename field [PA0002.Personnel Start Year] to [Personnel Start Year.PA0002.BEGDA];
+//rename field [PA0002.Personnel Start Month] to [Personnel Start Month.PA0002.BEGDA];
+//rename field [PA0002.Personnel Start Week] to [Personnel Start Week.PA0002.BEGDA];
+//rename field [PA0002.Personnel End Date] to [Personnel End Date.PA0002.ENDDA];
+//rename field [PA0002.Age] to [Age.PA0002.GBDAT];
+//rename field [PA0007.Full or Part Time] to [Full or Part Time.PA0007.EMPCT];
+//rename field [PA0008.Payroll Start Year] to [Payroll Start Year.PA0008.BEGDA];
+//rename field [PA0008.Payroll Start Month] to [Payroll Start Month.PA0008.BEGDA];
+//rename field [PA0008.Payroll Start Week] to [Payroll Start Week.PA0008.BEGDA];
+//rename field [PA2001.Absent Employee Number] to [Absent Employee Number.PA2001.PERNR];
+//rename field [PA2001.Absence Start Date] to [Absence Start Date.PA2001.BEGDA];
+//rename field [PA2001.Absence Start Month] to [Absence Start Month.PA2001.BEGDA];
+//rename field [PA2001.Absence Start Year] to [Absence Start Year.PA2001.BEGDA];
+//rename field [PA2001.Absence Start Week] to [Absence Start Week.PA2001.BEGDA];
+//rename field [PA2001.Absence End Date] to [Absence End Date.PA2001.ENDDA];
+
+
+/**************************************************
+MOVED TO QVD GENERATOR.
+***************************************************/
+
+
+
+/*RENAME TABLES*/
+rename table [PA0000] to [PA0000_Actions];
+rename table [PA0001] to [PA0001_Org Assignment];
+rename table [PA0002] to [PA0002_Personal Data];
+rename table [PA0006] to [PA0006_Addresses];
+rename table [PA0007] to [PA0007_Planned Working Time];
+rename table [PA0008] to [PA0008_Basic Pay];
+rename table [PA2001] to [PA2001_Absences];
+rename table [T500P] to [T500P_Personnel Areas];
+rename table [T510N] to [T510N_Pay Scales for Annual Salaries];
+rename table [T527X] to [T527X_Organizational Units];
+rename table [T554T] to [T554T_Absence and Attendance Texts];

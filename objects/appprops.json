@@ -2,23 +2,19 @@
   {
     "qProperty": {
       "qInfo": {
-        "qId": "e846f499-531c-41d1-ba52-7ace4c920a70",
+        "qId": "2b7d8a80-8acc-4b4e-858e-55d272c66dc4",
         "qType": "appprops"
       },
       "qMetaDef": {},
-      "sheetTitleBgColor": {
-        "color": "none",
-        "index": 0
-      },
+      "sheetTitleBgColor": "",
       "sheetTitleGradientColor": "",
       "sheetTitleColor": "",
       "sheetLogoThumbnail": {
         "qStaticContentUrlDef": {}
       },
-      "sheetLogoPosition": "left",
+      "sheetLogoPosition": "",
       "rtl": false,
-      "theme": "Calix-theme",
-      "defaultBookmarkId": null
+      "theme": "sense"
     },
     "qChildren": []
   }

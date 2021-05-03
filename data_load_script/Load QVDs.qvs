@@ -1,0 +1,3 @@
+///$tab Load QVDs
+LOAD *
+FROM $(vSource)*.qvd (qvd);

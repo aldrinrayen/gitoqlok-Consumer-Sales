@@ -1,856 +1,480 @@
 {
   "qInfos": [
     {
-      "qId": "007e75d2-452a-42b5-b924-b66576b69a76",
-      "qType": "dimension",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
+      "qId": "00895723-dc93-44b9-b463-7d2dabd47971",
+      "qType": "dimension"
     },
     {
-      "qId": "05778c9f-aef0-4078-a577-4cfffd8ebfbe",
-      "qType": "dimension",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
+      "qId": "0b1ba2ff-ee3a-4702-a8f1-c842db879bf5",
+      "qType": "measure"
     },
     {
-      "qId": "1517ae34-d4a7-4362-9fa0-2e9533f17323",
-      "qType": "embeddedsnapshot"
+      "qId": "12ecb37e-7d68-4613-8b21-2aeaf0d1c127",
+      "qType": "dimension"
     },
     {
-      "qId": "1921a822-d119-42b3-85ab-650b60304464",
-      "qType": "dimension",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
+      "qId": "1e2cd6ca-34a2-4cd5-a434-abf32a9a2dd4",
+      "qType": "dimension"
     },
     {
-      "qId": "194ec95b-6cce-4d90-ba53-c099c762f14b",
-      "qType": "dimension",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
+      "qId": "26622e4c-7d98-4a66-8814-04615501d975",
+      "qType": "dimension"
     },
     {
-      "qId": "1ec7e64f-3ef0-42f8-a201-743000dd5c24",
-      "qType": "embeddedsnapshot"
+      "qId": "2b7d8a80-8acc-4b4e-858e-55d272c66dc4",
+      "qType": "appprops"
     },
     {
-      "qId": "20c2b97b-1309-4210-b13c-af30b4bee211",
-      "qType": "dimension",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
+      "qId": "38d52945-2d8e-4d77-9052-ba5549b68fb4",
+      "qType": "dimension"
     },
     {
-      "qId": "2286d6be-43b2-42c2-9630-8dc4ed83fde5",
-      "qType": "dimension",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
+      "qId": "3d975211-d4c7-4d62-b257-cb4003e48d72",
+      "qType": "dimension"
     },
     {
-      "qId": "25af3b2b-a729-4b82-8a5a-97569617d0f7",
-      "qType": "snapshot",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
+      "qId": "3f083015-422d-46c5-8ecd-c198967df606",
+      "qType": "dimension"
     },
     {
-      "qId": "2aacad1a-1147-4d61-9e53-62d03d4df737",
-      "qType": "bookmark",
-      "modifiedDate": "2021-03-17T05:10:42.827Z"
+      "qId": "3f981ca7-d4d2-4b27-a6a9-2ffd8e6502c4",
+      "qType": "measure"
     },
     {
-      "qId": "2b1c52b1-0643-4752-9caa-8a297d512f1a",
-      "qType": "embeddedsnapshot"
+      "qId": "53d6a040-b03c-433f-9829-dac69f7e7e0a",
+      "qType": "measure"
     },
     {
-      "qId": "2bcc1ab4-784d-464e-b123-62f240c3b39f",
-      "qType": "dimension",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
+      "qId": "59ad98e2-1bad-4e95-8e0e-6ca5ae823d4d",
+      "qType": "measure"
     },
     {
-      "qId": "34309143-5faf-461d-814d-cb219c38da07",
-      "qType": "dimension",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
+      "qId": "5d296402-e8bf-484b-b50a-268fe8104800",
+      "qType": "dimension"
     },
     {
-      "qId": "3452a0ce-8a3b-4d58-821e-bc67916e5274",
-      "qType": "masterobject",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
+      "qId": "5dec5ae9-5420-40d5-8edd-ce04be8d39e8",
+      "qType": "dimension"
     },
     {
-      "qId": "3a79f659-0f06-43a6-a8fd-3fc3d47e985d",
-      "qType": "bookmark",
-      "modifiedDate": "2021-03-08T14:10:03.573Z"
+      "qId": "656ab643-9581-4577-a8b6-25158cddf6dd",
+      "qType": "measure"
     },
     {
-      "qId": "3ce675bf-3718-42ac-bfe2-86dfadb0c96d",
-      "qType": "dimension",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
+      "qId": "690ac2be-e998-4e77-aed3-f76b1104ff66",
+      "qType": "measure"
     },
     {
-      "qId": "449c07ac-e9c8-4d4c-9590-765e5a93d46b",
-      "qType": "embeddedsnapshot"
+      "qId": "6c653812-aa1f-4af3-b8f4-f30014e988af",
+      "qType": "measure"
     },
     {
-      "qId": "458f2107-2455-4f14-b129-9562519850b4",
-      "qType": "masterobject",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
+      "qId": "6cc1c3c2-0bd0-4616-905f-e1d03349126d",
+      "qType": "dimension"
     },
     {
-      "qId": "5008a373-d201-44ce-82cd-26c1cb95c298",
-      "qType": "dimension",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
+      "qId": "6d1e8c6f-3039-4322-abc1-3af3dae5ed43",
+      "qType": "dimension"
     },
     {
-      "qId": "50a5fd45-6023-487a-a6d1-f71681f0dafe",
-      "qType": "dimension",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
+      "qId": "74e6f873-e3fd-4259-b7a6-16487874a9b5",
+      "qType": "dimension"
     },
     {
-      "qId": "50f75221-8508-4abd-adf4-b3a159a98a11",
-      "qType": "snapshot",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
+      "qId": "7745c435-1112-4676-b640-7fc520fac52a",
+      "qType": "dimension"
     },
     {
-      "qId": "5b68675d-30a0-4e5c-9c11-efe9dba2fd1a",
-      "qType": "dimension",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
+      "qId": "7e3a520a-4668-4ee7-9c32-e6712a1351d1",
+      "qType": "dimension"
     },
     {
-      "qId": "5b7dbcd0-1948-42db-b5d5-3d4e6fb36bbf",
-      "qType": "dimension",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
+      "qId": "8566586c-50a4-4038-8268-9ae7f5a0c700",
+      "qType": "dimension"
     },
     {
-      "qId": "5deea019-0b91-4cb8-a756-68c512bc6212",
-      "qType": "bookmark",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
+      "qId": "8593823d-3232-47aa-b11a-30639bae2734",
+      "qType": "dimension"
     },
     {
-      "qId": "69b9169b-3727-4c9b-be5b-468b11911295",
-      "qType": "embeddedsnapshot"
+      "qId": "8a174bd3-b4db-4693-a5d1-d800e1b41d03",
+      "qType": "dimension"
     },
     {
-      "qId": "6b9453e3-4ef7-4049-9841-0fcf48fb2586",
-      "qType": "bookmark",
-      "modifiedDate": "2021-03-17T05:07:03.785Z"
+      "qId": "95bafd08-4587-4970-a25c-e3119285a7a9",
+      "qType": "dimension"
     },
     {
-      "qId": "700c622d-693d-46dd-b538-426edd0175c2",
-      "qType": "dimension",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
+      "qId": "9d1cd5ab-1615-4544-b036-adee154453f2",
+      "qType": "dimension"
     },
     {
-      "qId": "709935f2-b5e5-4555-a154-ba550c2626eb",
-      "qType": "masterobject",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
+      "qId": "9fea40be-578e-40fe-bdf8-ef018ac23fee",
+      "qType": "dimension"
     },
     {
-      "qId": "730e9262-dad1-4e79-bd0c-757a1ceb266b",
-      "qType": "embeddedsnapshot"
-    },
-    {
-      "qId": "76593b8c-b5d6-4ff6-8e6a-fdfa63804aa6",
-      "qType": "sheet",
-      "modifiedDate": "2021-03-02T13:05:48.436Z"
-    },
-    {
-      "qId": "7c29bfe1-12e9-4ed0-b4a4-db29c419f3cd",
-      "qType": "bookmark",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "7d3ce6e9-59cf-4056-9cd6-655901be490c",
-      "qType": "snapshot",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "8566e158-7f06-4324-9e73-d7688b574821",
-      "qType": "dimension",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "915894a2-9a62-4c91-8310-1ff5b33ecc0c",
-      "qType": "embeddedsnapshot"
-    },
-    {
-      "qId": "92278d45-7c0a-4103-a3f0-51e193213c0e",
-      "qType": "embeddedsnapshot"
-    },
-    {
-      "qId": "96247c2b-e08d-48ae-813d-d30349928998",
-      "qType": "dimension",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "9a188de5-136c-450b-85ab-3303fdc4f39c",
-      "qType": "embeddedsnapshot"
-    },
-    {
-      "qId": "ADDpyq",
-      "qType": "measure",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "BQDWDT",
-      "qType": "snapshot",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "BRTgFV",
-      "qType": "measure",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "BZtaxw",
-      "qType": "measure",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "BmcZDA",
-      "qType": "slide"
-    },
-    {
-      "qId": "CYHsZNY",
-      "qType": "slideitem"
-    },
-    {
-      "qId": "CseX",
-      "qType": "kpi"
-    },
-    {
-      "qId": "CtApmJr",
-      "qType": "measure",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "DNBgWXJ",
-      "qType": "slide"
-    },
-    {
-      "qId": "EFNGf",
-      "qType": "measure",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "EJfsyaT",
-      "qType": "slideitem"
-    },
-    {
-      "qId": "EmXwes",
-      "qType": "measure",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "EyEkgTn",
-      "qType": "dimension",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "FAeJZM",
-      "qType": "measure",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "FJHWXP",
-      "qType": "measure",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "FbEaYR",
-      "qType": "slideitem"
-    },
-    {
-      "qId": "GFEaF",
-      "qType": "slideitem"
-    },
-    {
-      "qId": "GdUUhw",
-      "qType": "masterobject",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "HhGPsEN",
-      "qType": "measure",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "Hzya",
-      "qType": "measure",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "JCEh",
-      "qType": "dimension",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "JFy",
-      "qType": "slideitem"
-    },
-    {
-      "qId": "JSdCZJv",
-      "qType": "measure",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "JesHLj",
-      "qType": "measure",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "JfgSzdP",
-      "qType": "slideitem"
-    },
-    {
-      "qId": "KBgAFet",
-      "qType": "measure",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "KuCpzb",
-      "qType": "slideitem"
-    },
-    {
-      "qId": "LFbXh",
-      "qType": "slide"
-    },
-    {
-      "qId": "LoadModel",
-      "qType": "LoadModel"
-    },
-    {
-      "qId": "MGKVm",
-      "qType": "measure",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "MWpNfJM",
-      "qType": "measure",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "NEhKDPp",
-      "qType": "slideitem"
-    },
-    {
-      "qId": "NPnJRmj",
-      "qType": "measure",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "NQEWF",
-      "qType": "slideitem"
-    },
-    {
-      "qId": "NhXCJF",
-      "qType": "measure",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "PJEpM",
-      "qType": "story",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "PYPrJ",
-      "qType": "slide"
-    },
-    {
-      "qId": "PkxPHA",
-      "qType": "measure",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "PmfVCp",
-      "qType": "measure",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "PnSYbJV",
-      "qType": "measure",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "PyDEXH",
-      "qType": "slideitem"
-    },
-    {
-      "qId": "QzpbYmp",
-      "qType": "snapshot",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "RMjcLy",
-      "qType": "snapshot",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "RhgLSR",
-      "qType": "snapshot",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "RyveS",
-      "qType": "slideitem"
-    },
-    {
-      "qId": "SKPCa",
-      "qType": "slideitem"
-    },
-    {
-      "qId": "SVXPvwX",
-      "qType": "slideitem"
-    },
-    {
-      "qId": "SjUFN",
-      "qType": "slideitem"
-    },
-    {
-      "qId": "UtmbrV",
-      "qType": "slide"
-    },
-    {
-      "qId": "UvxxZCL",
-      "qType": "measure",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "VSvJmYg",
-      "qType": "measure",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "VcPTPJj",
-      "qType": "measure",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "VpSBE",
-      "qType": "slideitem"
-    },
-    {
-      "qId": "WBCPpT",
-      "qType": "slideitem"
-    },
-    {
-      "qId": "Wwmauk",
-      "qType": "measure",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "XQPpxTR",
-      "qType": "slide"
-    },
-    {
-      "qId": "XXmtPau",
-      "qType": "slideitem"
-    },
-    {
-      "qId": "XjRwdz",
-      "qType": "measure",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "Xvcb",
-      "qType": "slideitem"
-    },
-    {
-      "qId": "Ydsxt",
-      "qType": "masterobject",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "YmSrK",
-      "qType": "slideitem"
-    },
-    {
-      "qId": "YnFTU",
-      "qType": "slideitem"
-    },
-    {
-      "qId": "ZHYbnRR",
-      "qType": "slideitem"
-    },
-    {
-      "qId": "ZPMweWh",
-      "qType": "slideitem"
-    },
-    {
-      "qId": "ZWfmskp",
-      "qType": "snapshot",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "ZbrjxW",
-      "qType": "measure",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "ZmmjKJC",
-      "qType": "slideitem"
-    },
-    {
-      "qId": "ZzKpbn",
-      "qType": "measure",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "a1c5c05b-97a5-4f50-889f-58440eddf40f",
-      "qType": "dimension",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "a4f09030-a78b-497a-8178-149a5f97d872",
-      "qType": "bookmark",
-      "modifiedDate": "2021-03-17T05:23:25.357Z"
-    },
-    {
-      "qId": "ab4b2e97-c136-4961-9df2-abb8f138b778",
-      "qType": "bookmark",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "af474ee7-aa28-4870-9ffb-790f201c1cc3",
-      "qType": "dimension",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "afb835de-4bad-4bc3-b3d1-97e92b5ae225",
-      "qType": "masterobject",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "ajBjBWf",
-      "qType": "slideitem"
-    },
-    {
-      "qId": "b3773eb8-aeb6-4a37-b097-bb0478feff68",
-      "qType": "dimension",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "b7d8d17d-2204-4549-900c-fbc9fc939dba",
-      "qType": "embeddedsnapshot"
-    },
-    {
-      "qId": "bCmaLJE",
-      "qType": "slide"
-    },
-    {
-      "qId": "bUhEC",
-      "qType": "slideitem"
-    },
-    {
-      "qId": "ba3afca6-f5a0-4cc9-baae-15ecacb6275b",
-      "qType": "dimension",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "bc3a73f7-3177-4674-a644-0ed670998833",
-      "qType": "sheet",
-      "modifiedDate": "2021-02-22T06:22:13.153Z"
-    },
-    {
-      "qId": "beaa4f90-03da-4a75-9ca8-1e4df30ecfd5",
-      "qType": "embeddedsnapshot"
-    },
-    {
-      "qId": "brGMjJ",
-      "qType": "slideitem"
-    },
-    {
-      "qId": "c0fe7f0d-9523-4428-a1dd-7d9bfa4f0f5b",
-      "qType": "bookmark",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "cFJMxjA",
-      "qType": "slideitem"
-    },
-    {
-      "qId": "cHJBQDW",
-      "qType": "Stretchd_Pivot_Table"
-    },
-    {
-      "qId": "caUGPBz",
-      "qType": "table"
-    },
-    {
-      "qId": "cf1d8ef8-4020-4f81-b487-514c354875b4",
-      "qType": "dimension",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "cutwPv",
-      "qType": "slideitem"
-    },
-    {
-      "qId": "d51be11b-2dba-4a4e-a8ca-b5873e0e21bc",
-      "qType": "embeddedsnapshot"
-    },
-    {
-      "qId": "d5403f33-d40d-406c-8c9c-d7d07e702bc0",
-      "qType": "embeddedsnapshot"
-    },
-    {
-      "qId": "d6399671-ce5a-4472-a398-360380bc72cb",
+      "qId": "ABprRf",
       "qType": "listbox"
     },
     {
-      "qId": "dadkFM",
-      "qType": "snapshot",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
+      "qId": "APfDmt",
+      "qType": "listbox"
     },
     {
-      "qId": "df800bc2-2a34-49b3-b9cb-83b5f530436d",
-      "qType": "sheet",
-      "modifiedDate": "2021-03-08T13:07:48.972Z"
-    },
-    {
-      "qId": "dppTHS",
-      "qType": "slideitem"
-    },
-    {
-      "qId": "e062299e-2690-4b48-8267-a3d25f214abb",
-      "qType": "dimension",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "e7acf9db-0dd6-401a-a971-6ea221fb51a1",
-      "qType": "bookmark",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "e846f499-531c-41d1-ba52-7ace4c920a70",
-      "qType": "appprops",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "eZeuGcC",
-      "qType": "slideitem"
-    },
-    {
-      "qId": "ebb29b50-eb4f-4b8e-9bd9-8a6e0cdc5bcc",
-      "qType": "dimension",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "ewvRN",
-      "qType": "snapshot",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "f5857728-e669-4d47-b463-8588eabb0a67",
-      "qType": "embeddedsnapshot"
-    },
-    {
-      "qId": "fa427a23-d25f-48b9-8f8e-d8e21c8c216b",
-      "qType": "snapshot",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "faEjngn",
-      "qType": "measure",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "ffc54c49-6dec-450b-984f-9edc2485c5a2",
-      "qType": "snapshot",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
-    },
-    {
-      "qId": "fpYhnJ",
+      "qId": "AyDzLgh",
       "qType": "kpi"
     },
     {
-      "qId": "gTfSx",
-      "qType": "slideitem"
+      "qId": "BPyVq",
+      "qType": "measure"
     },
     {
-      "qId": "gUJWPF",
-      "qType": "masterobject",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
+      "qId": "BRdjz",
+      "qType": "variable"
     },
     {
-      "qId": "gXafqHN",
-      "qType": "slideitem"
+      "qId": "BwFjPN",
+      "qType": "dimension"
     },
     {
-      "qId": "gfcJcJ",
-      "qType": "slide"
+      "qId": "CRCeN",
+      "qType": "snapshot"
     },
     {
-      "qId": "hehJUqt",
+      "qId": "CyphWL",
       "qType": "kpi"
     },
     {
-      "qId": "huMthCd",
-      "qType": "measure",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
+      "qId": "DDpSS",
+      "qType": "sheet"
     },
     {
-      "qId": "jbVLY",
-      "qType": "snapshot",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
+      "qId": "DWpuZh",
+      "qType": "barchart"
     },
     {
-      "qId": "jyePkA",
-      "qType": "slideitem"
+      "qId": "ECHrK",
+      "qType": "dimension"
     },
     {
-      "qId": "kSaTsm",
-      "qType": "slideitem"
+      "qId": "EKpxvCc",
+      "qType": "barchart"
     },
     {
-      "qId": "kScmCg",
-      "qType": "Strechd_Pie_Chart"
+      "qId": "FGuVmr",
+      "qType": "dimension"
     },
     {
-      "qId": "kVbPf",
-      "qType": "measure",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
+      "qId": "FJrUHj",
+      "qType": "dimension"
     },
     {
-      "qId": "kWLjdUs",
-      "qType": "snapshot",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
+      "qId": "FjJMbB",
+      "qType": "kpi"
     },
     {
-      "qId": "kkSADY",
-      "qType": "measure",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
+      "qId": "FkWRGQP",
+      "qType": "variable"
     },
     {
-      "qId": "mLnQ",
-      "qType": "slideitem"
+      "qId": "HXhjgw",
+      "qType": "listbox"
     },
     {
-      "qId": "mREncbP",
-      "qType": "slideitem"
+      "qId": "JCYNRKT",
+      "qType": "dimension"
     },
     {
-      "qId": "mVrK",
-      "qType": "snapshot",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
+      "qId": "JJnxXCJ",
+      "qType": "pivot-table"
     },
     {
-      "qId": "mkjyPt",
-      "qType": "measure",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
+      "qId": "JeZJLs",
+      "qType": "treemap"
     },
     {
-      "qId": "ncXejP",
-      "qType": "measure",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
+      "qId": "JsJqLJP",
+      "qType": "dimension"
     },
     {
-      "qId": "njtRQW",
-      "qType": "slideitem"
+      "qId": "KLJkCAV",
+      "qType": "listbox"
     },
     {
-      "qId": "pMgXJW",
-      "qType": "snapshot",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
+      "qId": "LRzPRw",
+      "qType": "map"
     },
     {
-      "qId": "pNcHSx",
-      "qType": "measure",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
+      "qId": "LXYpjp",
+      "qType": "sheet"
     },
     {
-      "qId": "prgzES",
-      "qType": "masterobject",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
+      "qId": "LgJWQFE",
+      "qType": "listbox"
     },
     {
-      "qId": "qMNbn",
-      "qType": "Stretchd_infoWriter_MultiInput"
+      "qId": "MTmXE",
+      "qType": "barchart"
     },
     {
-      "qId": "rbn",
-      "qType": "slideitem"
+      "qId": "MYdjYsJ",
+      "qType": "measure"
     },
     {
-      "qId": "sCmzCH",
+      "qId": "NdcCE",
+      "qType": "linechart"
+    },
+    {
+      "qId": "PTLNUK",
+      "qType": "sheet"
+    },
+    {
+      "qId": "PfynsQH",
+      "qType": "dimension"
+    },
+    {
+      "qId": "PwHHeRq",
+      "qType": "barchart"
+    },
+    {
+      "qId": "QNwtJkB",
+      "qType": "barchart"
+    },
+    {
+      "qId": "RRRBcy",
+      "qType": "piechart"
+    },
+    {
+      "qId": "RdAF",
+      "qType": "dimension"
+    },
+    {
+      "qId": "SRwnD",
+      "qType": "dimension"
+    },
+    {
+      "qId": "TphjtPt",
+      "qType": "sheet"
+    },
+    {
+      "qId": "USKpD",
+      "qType": "measure"
+    },
+    {
+      "qId": "VQhC",
+      "qType": "dimension"
+    },
+    {
+      "qId": "VmZymJ",
+      "qType": "dimension"
+    },
+    {
+      "qId": "XUqpNhn",
+      "qType": "dimension"
+    },
+    {
+      "qId": "YvpPgmS",
+      "qType": "dimension"
+    },
+    {
+      "qId": "ZtHQXC",
+      "qType": "measure"
+    },
+    {
+      "qId": "a0210f5d-c877-4619-b076-f48189ab6968",
+      "qType": "dimension"
+    },
+    {
+      "qId": "ayPAqB",
+      "qType": "filterpane"
+    },
+    {
+      "qId": "bjVcCmY",
+      "qType": "measure"
+    },
+    {
+      "qId": "c51a53c4-b6c2-4a05-8b68-b59b1f982c31",
+      "qType": "dimension"
+    },
+    {
+      "qId": "cvUFHbq",
+      "qType": "dimension"
+    },
+    {
+      "qId": "dPhsmuP",
       "qType": "table"
     },
     {
-      "qId": "sRRvWf",
-      "qType": "measure",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
+      "qId": "db6868b8-f82f-471e-b6e3-acd3dc909083",
+      "qType": "dimension"
     },
     {
-      "qId": "sXLFkk",
-      "qType": "snapshot",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
+      "qId": "dedac2cc-3141-4aa1-96f9-03c424fc89ae",
+      "qType": "dimension"
     },
     {
-      "qId": "srJpP",
-      "qType": "slideitem"
+      "qId": "e3f8bbe2-3261-42c4-bc79-90e02771ac9d",
+      "qType": "dimension"
     },
     {
-      "qId": "tPnPLJ",
-      "qType": "snapshot",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
+      "qId": "ePbtaA",
+      "qType": "barchart"
     },
     {
-      "qId": "uQbd",
-      "qType": "measure",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
+      "qId": "eRWJqL",
+      "qType": "piechart"
     },
     {
-      "qId": "uZpt",
-      "qType": "slide"
+      "qId": "edc330bc-b9b6-451d-b110-78d96a1bedfc",
+      "qType": "dimension"
     },
     {
-      "qId": "urXXTm",
-      "qType": "snapshot",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
+      "qId": "erZeKcv",
+      "qType": "measure"
     },
     {
-      "qId": "vmVjyQL",
+      "qId": "ewYLqjm",
+      "qType": "barchart"
+    },
+    {
+      "qId": "fTjCrV",
+      "qType": "filterpane"
+    },
+    {
+      "qId": "fbsAeEB",
+      "qType": "barchart"
+    },
+    {
+      "qId": "gEmkJks",
+      "qType": "measure"
+    },
+    {
+      "qId": "gdfBRk",
+      "qType": "barchart"
+    },
+    {
+      "qId": "gtu",
+      "qType": "filterpane"
+    },
+    {
+      "qId": "hCdG",
       "qType": "kpi"
     },
     {
-      "qId": "vsgmxmY",
-      "qType": "slideitem"
+      "qId": "jGtYLQ",
+      "qType": "table"
     },
     {
-      "qId": "wAHvmXU",
-      "qType": "dimension",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
+      "qId": "jJBPyF",
+      "qType": "measure"
     },
     {
-      "qId": "wjZwy",
-      "qType": "story",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
+      "qId": "jJfXAPB",
+      "qType": "linechart"
     },
     {
-      "qId": "xNtpYC",
-      "qType": "slideitem"
+      "qId": "jXfgmdW",
+      "qType": "measure"
     },
     {
-      "qId": "xdrHWxe",
-      "qType": "measure",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
+      "qId": "jnDqp",
+      "qType": "filterpane"
     },
     {
-      "qId": "xsAAezG",
-      "qType": "measure",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
+      "qId": "kFczATY",
+      "qType": "measure"
     },
     {
-      "qId": "yJueLpg",
-      "qType": "slideitem"
+      "qId": "kZyHMs",
+      "qType": "piechart"
     },
     {
-      "qId": "ynPrH",
-      "qType": "measure",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
+      "qId": "mNyJyg",
+      "qType": "barchart"
     },
     {
-      "qId": "zfshrm",
-      "qType": "slideitem"
+      "qId": "mrgXES",
+      "qType": "barchart"
     },
     {
-      "qId": "zjLTDL",
-      "qType": "slideitem"
+      "qId": "mrkJh",
+      "qType": "kpi"
     },
     {
-      "qId": "zswLzs",
-      "qType": "masterobject",
-      "modifiedDate": "2021-02-09T11:52:00.109Z"
+      "qId": "ndYPq",
+      "qType": "barchart"
+    },
+    {
+      "qId": "ngwPjY",
+      "qType": "filterpane"
+    },
+    {
+      "qId": "pHPJRjD",
+      "qType": "barchart"
+    },
+    {
+      "qId": "pJUFjSm",
+      "qType": "listbox"
+    },
+    {
+      "qId": "qRdj",
+      "qType": "kpi"
+    },
+    {
+      "qId": "qWBvwv",
+      "qType": "dimension"
+    },
+    {
+      "qId": "rjRLXmK",
+      "qType": "kpi"
+    },
+    {
+      "qId": "rwDedDp",
+      "qType": "kpi"
+    },
+    {
+      "qId": "sNHCymF",
+      "qType": "filterpane"
+    },
+    {
+      "qId": "sWYsJ",
+      "qType": "dimension"
+    },
+    {
+      "qId": "thmXJ",
+      "qType": "variable"
+    },
+    {
+      "qId": "uncjm",
+      "qType": "dimension"
+    },
+    {
+      "qId": "vKEqsp",
+      "qType": "dimension"
+    },
+    {
+      "qId": "vjjddb",
+      "qType": "sheet"
+    },
+    {
+      "qId": "xdCyah",
+      "qType": "sheet"
+    },
+    {
+      "qId": "yYZWpXP",
+      "qType": "treemap"
+    },
+    {
+      "qId": "ysVuPm",
+      "qType": "sheet"
+    },
+    {
+      "qId": "yvWe",
+      "qType": "measure"
+    },
+    {
+      "qId": "zKTGhxP",
+      "qType": "barchart"
     }
   ]
 }

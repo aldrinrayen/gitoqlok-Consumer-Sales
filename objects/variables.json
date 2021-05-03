@@ -1,1 +1,273 @@
-[]
+[
+  {
+    "qInfo": {
+      "qId": "1dd7633c-d271-430d-bf7b-e00b9d031596",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vDirectoryPath",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "216723d8-7250-4b4c-92e2-b4a1a581ad35",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vGenderSplit",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "[Employee Age Group 10]",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "256d1851-0924-4e78-bc41-0f5525683011",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vLanguage",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "E"
+  },
+  {
+    "qInfo": {
+      "qId": "5a7dd18b-7762-448e-a315-2003ece874d6",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vWorkinghours",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "-0.01"
+  },
+  {
+    "qInfo": {
+      "qId": "5fff0cee-1d7c-41af-a419-ac7ccca66dd4",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vCurrentYear",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "2009"
+  },
+  {
+    "qInfo": {
+      "qId": "7787aa7c-6250-46aa-ace4-6a90f4f9b21d",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "Source",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "C:\\DATA\\clients\\SAP\\Modules\\SAP HR\\"
+  },
+  {
+    "qInfo": {
+      "qId": "8e54cb5b-ab7b-4202-99de-5b9b86212210",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vTodaysDate",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "40178.999999988"
+  },
+  {
+    "qInfo": {
+      "qId": "97969a3f-d7a8-4cdb-9ec1-e1278e200ff0",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vTopN",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "50"
+  },
+  {
+    "qInfo": {
+      "qId": "MUgUtp",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vColorBlueLight",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "rgb(100,255,255)",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "PeJANFX",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vFemaleTgt",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "48",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "SHVrmS",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vColorBlueGradient",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "ColorMix1( rank(total column(1))/noofrows(TOTAL) , $(vColorBlueDark), $(vColorBlueLight))",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "Vejymv",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vColorBlueDark",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "rgb(0,115,188)",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "a1184f68-e9ea-4edc-8c87-17ca4bd4825c",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vSource",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "QVD\\"
+  },
+  {
+    "qInfo": {
+      "qId": "a50382e5-7630-429a-bee4-26fa9ec3ebb6",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vToday",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "31/12/2008",
+    "qIsScriptCreated": true
+  },
+  {
+    "qInfo": {
+      "qId": "c2f52f5c-b04e-4bde-a5f6-ccafa0e57cc5",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vLastYear",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "2008"
+  },
+  {
+    "qInfo": {
+      "qId": "c302224f-d3d4-4c25-82f7-c8400c8a248c",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vLength",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "L"
+  },
+  {
+    "qInfo": {
+      "qId": "ce7972ec-12b2-4156-bc15-9314d44277ca",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vAdj",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "3287"
+  },
+  {
+    "qInfo": {
+      "qId": "ea4577d5-9330-4eca-a97a-24b4fd935de6",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vScriptBuilder",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "C:\\ProgramData\\QlikTech\\Custom Data\\QvSAPConnector\\ScriptBuilder\\qvd\\"
+  },
+  {
+    "qInfo": {
+      "qId": "f524d8a3-dc7c-4e75-8387-dfcd25b1de41",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vSalary",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "0"
+  }
+]
